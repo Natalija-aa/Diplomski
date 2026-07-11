@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"c:/Users/Korisnik/OneDrive/Desktop/FAKS/diplomski\" status)",
+      "Bash(git -C \"c:/Users/Korisnik/OneDrive/Desktop/FAKS/diplomski\" log --oneline -3)",
+      "Bash(git -C \"c:/Users/Korisnik/OneDrive/Desktop/FAKS/diplomski\" remote -v)",
+      "Bash(git -C \"c:/Users/Korisnik/OneDrive/Desktop/FAKS/diplomski\" add utils.py pca_lda_kompletno.py tsne_umap_kompletno.py 01_pca_wine.png 02_lda_wine.png 05_pca_fail_lda_win.png t01_tsne_wine.png t02_umap_wine.png t03_hyperparametri.png t04_poredenje.png t06_izuzeci_tsne.png t07_izuzeci_umap.png 06a_pca_loadings.png 06b_lda_scalings.png)",
+      "Bash(git -C \"c:/Users/Korisnik/OneDrive/Desktop/FAKS/diplomski\" commit -m \"Ispravke figura: imena sorti vina, loadings zasebno, t06 panel, PCA fail vizualizacija\")",
+      "Bash(git -C \"c:/Users/Korisnik/OneDrive/Desktop/FAKS/diplomski\" push origin main)",
+      "Bash(ls \"c:/Users/Korisnik/OneDrive/Desktop/FAKS/\")",
+      "Read(//c/Users/Korisnik/OneDrive/Desktop/FAKS/**)",
+      "Bash(git -C \"c:/Users/Korisnik/OneDrive/Desktop/FAKS/diplomski\" add \"tekst diplomski/\")",
+      "Bash(git -C \"c:/Users/Korisnik/OneDrive/Desktop/FAKS/diplomski\" commit -m \"Dodavanje foldera tekst diplomski sa LaTeX izvorom i PDF fajlovima\")",
+      "Bash(mkdir -p \"c:/Users/Korisnik/OneDrive/Desktop/FAKS/diplomski/slike\")",
+      "Bash(git -C \"c:/Users/Korisnik/OneDrive/Desktop/FAKS/diplomski\" rm 01_pca_wine.png 02_lda_wine.png 03_pca_failures.png 04_lda_failures.png 05_pca_fail_lda_win.png 06_loadings_heatmap.png 06a_pca_loadings.png 06b_lda_scalings.png 07_curse_of_dim.png 08_outlier_1D.png t01_tsne_wine.png t02_umap_wine.png t03_hyperparametri.png t04_poredenje.png t05_nelinearne_komplet.png t06_izuzeci_tsne.png t07_izuzeci_umap.png t08_transform.png)",
+      "Bash(git -C \"c:/Users/Korisnik/OneDrive/Desktop/FAKS/diplomski\" add pca_lda_kompletno.py tsne_umap_kompletno.py)",
+      "Bash(git -C \"c:/Users/Korisnik/OneDrive/Desktop/FAKS/diplomski\" commit -m \"Grafovi se cuvaju u folder slike/, uklonjeni iz root-a\")",
+      "Bash(git -C \"c:/Users/Korisnik/OneDrive/Desktop/FAKS/diplomski\" add slike/)",
+      "Bash(git -C \"c:/Users/Korisnik/OneDrive/Desktop/FAKS/diplomski\" commit -m \"Dodavanje foldera slike sa svim generisanim grafovima\")",
+      "Bash(git -C \"c:/Users/Korisnik/OneDrive/Desktop/FAKS/diplomski\" log --format=\"%H %an <%ae>\" -10)",
+      "Bash(git -C \"c:/Users/Korisnik/OneDrive/Desktop/FAKS/diplomski\" ls-files)",
+      "Bash(git -C \"c:/Users/Korisnik/OneDrive/Desktop/FAKS/diplomski\" log --all --format=\"%H %an <%ae>\")",
+      "Bash(git config *)",
+      "Bash(git -C \"c:/Users/Korisnik/OneDrive/Desktop/FAKS/diplomski\" remote get-url origin)",
+      "Bash(git -C \"c:/Users/Korisnik/OneDrive/Desktop/FAKS/diplomski\" remote set-url origin https://github.com/Natalija-aa/diplomski.git)",
+      "Bash(git -C \"c:/Users/Korisnik/OneDrive/Desktop/FAKS/diplomski\" log --format=\"%H%nauthor: %an <%ae>%ncommitter: %cn <%ce>%n\" -5)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKS\\diplomski"
+    ]
+  }
+}

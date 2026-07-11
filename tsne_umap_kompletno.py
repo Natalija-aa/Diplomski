@@ -23,11 +23,8 @@ Struktura:
        8. t-SNE vs UMAP — direktna usporedba prednosti/mana
 """
 
-import os
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module="umap")
-
-os.makedirs("slike", exist_ok=True)
 
 import time
 import numpy as np
@@ -468,7 +465,7 @@ def figura_8_transform():
                       "UMAP 1", "UMAP 2")
 
     plt.tight_layout()
-    plt.savefig("slike/t08_transform.png", dpi=150, bbox_inches="tight")
+    plt.savefig("t08_transform.png", dpi=150, bbox_inches="tight")
 
 
 

@@ -9,7 +9,7 @@
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[serbianc]{babel}
-\usepackage{lineno,hyperref}
+\usepackage{lineno}
 %\modulolinenumbers[5]
 \bibliographystyle{elsarticle-num}
 \usepackage{comment}
@@ -17,12 +17,15 @@
 \interdisplaylinepenalty=2500
 \usepackage[cmintegrals]{newtxmath}
 \usepackage{enumerate}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage{url}
 \usepackage{booktabs}
 \usepackage{amsmath}
 \usepackage{float}
 \usepackage{graphicx}
+\usepackage[titles]{tocloft}
+\setlength{\cftbeforesecskip}{2pt}
+\setlength{\cftbeforesubsecskip}{1pt}
 \usepackage{fancyhdr}
 \usepackage[justification=centering]{caption}
 \usepackage[justification=centering]{subcaption}
@@ -55,11 +58,11 @@
 \begin{document}
 	
 	\begin{titlepage}
-		\includepdf[pages=1]{Prva1.pdf}
+		\includepdf[pages=1]{Prva.pdf}
 	\end{titlepage}
 	\vfill
-	\includepdf[pages=1-2]{DrugaTreca1.pdf}
-	\includepdf[pages=1]{Cetvrta1.pdf}
+	\includepdf[pages=1-2]{DrugaTreca.pdf}
+	\includepdf[pages=1]{Cetvrta.pdf}
 	\tableofcontents
 	\afterpage{\blankpage}
 	\pagebreak
